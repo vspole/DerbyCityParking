@@ -1,0 +1,22 @@
+{
+    "Version": "1.0",
+    "CredentialsProvider": {
+        "CognitoIdentity": {
+            "Default": {
+                "PoolId": "us-east-1:bb0adad0-7c6c-4e49-86c9-dc8da1831961",
+                "Region": "us-east-1"
+            }
+        }
+    },
+    "IdentityManager" : {
+      "Default" : {
+
+      }
+    },
+    "S3TransferUtility": {
+        "Default": {
+            "Bucket": "derbyhacks-parking",
+            "Region": "us-east-1"
+        }
+    }
+}
